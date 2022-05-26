@@ -35,7 +35,8 @@
     background-color: rgba(0, 0, 0, 1);
     color: white;
     text-align: center;
-    padding: 10px;    
+    padding: 10px; 
+    position: relative;   
 }
 .answer{
     display: none;
@@ -92,6 +93,11 @@
 
 .active{
     display: block;
+    position: absolute;
+    top: 32%;
+}
+.active1{
+    display: block; 
 }
 
 

@@ -36,7 +36,7 @@ function display(){
     else {
         let remaining_years = 90 - age;
         let remaining_weeks = 52*remaining_years;
-        answer.classList.add("active");
+        answer.classList.add("active1");
         count.textContent = remaining_weeks;
         ageInput.value ="";
     }
