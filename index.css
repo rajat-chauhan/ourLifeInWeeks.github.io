@@ -93,3 +93,33 @@
 .active{
     display: block;
 }
+
+
+
+ /* For responsive mode */
+
+@media screen and (min-width: 359px) and (max-width: 600px){
+    .container{
+        width: 45vw;
+        position: absolute;
+        left: 16%;
+        top: 18%;
+        padding: 25px;
+    }
+    #displayResult{
+        width: 19vw;
+        height: 16vh;
+        margin-left: 23%;
+        padding: 10px;    
+    }
+    #heading-cont{
+        font-size: 15px;
+    } 
+    #para-cont{
+        font-size: 12px;    
+    }
+    ::placeholder {
+        font-size: 10px;
+      }
+ }
+    
