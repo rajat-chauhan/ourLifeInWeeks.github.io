@@ -132,7 +132,7 @@
     ::placeholder {
         font-size: 10px;
       }
-    .answer{
+    .answer, .alert1, .alert2 {
         font-size: 12px;
     }
     #calcBtn{
