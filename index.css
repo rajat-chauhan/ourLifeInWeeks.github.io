@@ -1,0 +1,95 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+
+#outer-container{
+    background-image: url("./images/sunset.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.container{
+    width: 50vw;
+    position: absolute;
+    left: 20%;
+    top: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+}
+#heading-cont{
+    color: rgb(88, 9, 161);
+} 
+#para-cont{
+    color: rgb(88, 9, 161);    
+}
+
+#displayResult{
+    width: 17vw;
+    height: 25vh;
+    margin-left: 31.5%;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    text-align: center;
+    padding: 10px;    
+}
+.answer{
+    display: none;
+}
+.alert1{
+    display: none;
+}
+.alert2{
+    display: none;
+}
+#textbox{
+    width: 22vw;
+    border: none;
+    background-color: rgb(210, 230, 233);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 2px;
+    text-align: center;
+    opacity: 0.7;
+}
+::placeholder {
+    color: rgb(98, 46, 139);
+    opacity: 1;
+  }
+#textbox:focus{
+    background-color: white;
+    outline: none;
+}
+#calcBtn{
+    width: 21vw;
+    background-color: rgb(230, 230, 174);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+#calcBtn:hover{
+    background-color: green;
+    color: white;
+}
+#rstBtn{
+    width: 20vw;
+    background-color: rgb(52, 45, 68);
+    color: white;
+    border: none;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 2px;
+}
+#rstBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.active{
+    display: block;
+}
