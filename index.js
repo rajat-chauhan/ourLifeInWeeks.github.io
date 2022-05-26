@@ -27,16 +27,16 @@ function display(){
         clearInterval(mytimer); 
 
         let alert2 = document.querySelector(".alert2");
-        alert2.classList.add("active");
+        alert2.classList.add("active1");
 
         mytimer = setInterval(function() {
-            alert2.classList.remove("active");
+            alert2.classList.remove("active1");
         }, 3000);
     }
     else {
         let remaining_years = 90 - age;
         let remaining_weeks = 52*remaining_years;
-        answer.classList.add("active1");
+        answer.classList.add("active2");
         count.textContent = remaining_weeks;
         ageInput.value ="";
     }

@@ -94,9 +94,14 @@
 .active{
     display: block;
     position: absolute;
-    top: 32%;
+    top: 25%;
 }
 .active1{
+    display: block;
+    position: absolute;
+    top: 32%;
+}
+.active2{
     display: block; 
 }
 
