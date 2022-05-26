@@ -102,7 +102,7 @@
     .container{
         width: 45vw;
         position: absolute;
-        left: 16%;
+        left: 17.5%;
         top: 18%;
         padding: 25px;
     }
@@ -121,5 +121,18 @@
     ::placeholder {
         font-size: 10px;
       }
+    .answer{
+        font-size: 12px;
+    }
+    #calcBtn{
+        width: 23vw;
+        padding: 5px;
+        font-size: 12px;
+    }
+    #rstBtn{
+        width: 21vw;
+        padding: 5px;
+        font-size: 12px; 
+    }
  }
     
